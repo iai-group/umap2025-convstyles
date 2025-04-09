@@ -56,7 +56,7 @@ Additional command-line options are available, as defined in `main.py`.
 If you use the resources presented in this repository, please cite:
 
 ```
-@inproceedings{Lastname:YYYY:ABC,
+@inproceedings{Kostric:2025:UMAP,
   author =    {Ivica Kostric, Krisztian Balog, Ujwal Gadiraju},
   title =     {Should We Tailor the Talk? Understanding the Impact of Conversational Styles on Preference Elicitation in Conversational Recommender Systems},
   booktitle = {33rd ACM Conference on User Modeling, Adaptation and Personalization (UMAP ’25)},
