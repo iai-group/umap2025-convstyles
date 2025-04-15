@@ -1,10 +1,8 @@
 # Should We Tailor the Talk? Understanding the Impact of Conversational Styles on Preference Elicitation in Conversational Recommender Systems
 
-
 This repository provides resources developed within the following article [[PDF](https://arxiv.org/abs/TODO_FIX_LINK)] (To be published in UMAP 2025):
 
 > I. Kostric, K. Balog, U. Gadiraju. **Should We Tailor the Talk? Understanding the Impact of Conversational Styles on Preference Elicitation in Conversational Recommender Systems** In: Proceedings of the 33rd ACM Conference on User Modeling, Adaptation and Personalization (UMAP ’25), June 2025. [DOI: 10.1145/3699682.3728353](https://doi.org/10.1145/3699682.3728353)
-
 
 ## Summary
 
@@ -23,7 +21,6 @@ The code is split into 2 parts: server and client, which are adapted from [Arxiv
   - **Main Entry Point:** Located [here](code/server/ada/main.py).
 
 Client code is based on react and should be built using npm. The client code is located in the `code/client` directory.
-
 
 ## Installation
 
