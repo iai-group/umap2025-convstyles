@@ -15,18 +15,15 @@ Our results indicate that adapting conversational strategies based on user exper
 
 ## Overview
 
-ADA includes the following components:
+The code is split into 2 parts: server and client, which are adapted from [ArxivDigest Assistant](https://github.com/iai-group/arxivdigest-assistant) and [ChatWidget](https://github.com/iai-group/ChatWidget). Server code includes the following components:
 
-  - **Agent & Dialogue Management:** Implemented in [ada/agent/agent.py](ada/agent/agent.py) and [ada/agent/dialogue_manager/dialogue_manager.py](ada/agent/dialogue_manager/dialogue_manager.py).
-  - **User Model:** Managed in [ada/external/user_model/ada_user_model.py](ada/external/user_model/ada_user_model.py).
-  - **Configuration:** Defined in [config/config.yaml](config/config.yaml).
-  - **Main Entry Point:** Located in [ada/main.py](ada/main.py).
+  - **Agent & Dialogue Management:** Implemented in [agent](code/server/ada/agent/agent.py) and [dialogue_manager](ada/agent/dialogue_manager/dialogue_manager.py).
+  - **User Model:** Managed in [user model](code/server/ada/external/user_model/ada_user_model.py).
+  - **Configuration:** Defined in [config](code/server/config/config.yaml).
+  - **Main Entry Point:** Located [here](code/server/ada/main.py).
 
-## Features
+Client code is based on react and should be built using npm. The client code is located in the `code/client` directory.
 
-  - Conversational preference elicitation with support for multiple dialogue styles.
-  - Recommendation module for retrieving scientific literature.
-  - Configurable dialogue management and user interaction flow.
 
 ## Installation
 
@@ -39,7 +36,15 @@ ADA includes the following components:
 
 3. **Set up configuration:**
 
-    Create the configuration in config/config.yaml.
+    Create the configuration in code/server/config/config.yaml.
+
+4. **build the client:**
+
+   ```sh
+   cd code/client
+   npm install
+   npm run build
+   ```
 
 ## Running the Application
 
@@ -49,7 +54,16 @@ Run the main module to start the server:
 python -m code.server -p <port>
 ```
 
-Additional command-line options are available, as defined in `code/server/__main__.py`.
+This will start a local server on `http://localhost:5000`.
+
+Run the client:
+
+```sh
+cd code/client
+npm start
+```
+
+This will start a local server on `http://localhost:3000`. You can access the application by navigating to this URL in your web browser.
 
 ## Citation
 
