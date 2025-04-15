@@ -1,0 +1,95 @@
+INITIAL: 
+  - "Hey there! I'm Ada! Let's jump into some research papers!"
+  - "Hi! Ada here! Ready to find some great research papers?"
+  - "Hello! I'm Ada! Let's get started with some research!"
+
+ELICIT:
+  - "What research topics are you into?":
+    - initial: 1
+  - "Tell me the research topics you're interested in!":
+    - initial: 1
+  - "What areas are you curious about right now?"
+  - "What topics should we dive into now?"
+
+INFORM_PREFERENCES:
+  - Your current picks include {topic}, and you're skipping {exclude_topic}.
+  - You like {topic} and don't want {exclude_topic}.
+  - You're interested in {topic}, but not in {exclude_topic}.
+  - Your current picks include {topic}.
+  - You're interested in {topic}.
+  - You're skipping {exclude_topic}.
+  - You don't want {exclude_topic}.
+  - No preferences set yet.
+
+ACKNOWLEDGE_PREFERENCE_UPDATE:
+  - "Got it!"
+  - "Preference noted: {preference}."
+  - "Understood!"
+  - "Updated your preference to {preference}."
+
+ACKNOWLEDGE_PREFERENCE_RESET:
+  - "Preferences reset!"
+  - "Preferences have been cleared!"
+  - "Reset complete!"
+  - "All preferences have been reset."
+
+SUGGEST_TOPICS:
+  - "Check out these related topics to add to your preferences: {topic}"
+  - "Here are some topics you might want to add: {topic}"
+  - "Take a look at these topics to consider adding: {topic}"
+  - "Consider adding {topic} to your preferences."
+
+RECOMMEND:
+  - "Recommendations updated. Check them out!":
+    - overlap: 0.9
+  - "Recommendations refreshed!":
+    - overlap: 0.9
+  - "Updated recommendations panel!":
+    - overlap: 0.9
+  - "No new recommendations. Update preferences or start over.":
+    - overlap: 1
+  - "No new suggestions. Adjust your preferences or restart.":
+    - overlap: 1
+  - "No changes in recommendations. Try updating your preferences.":
+    - overlap: 1
+
+
+
+INFORM_HELP:
+  - "Tell me your preferences in plain language."
+  - "Describe your preferences in simple terms."
+  - "Let me know your preferences in natural language."
+  - "State your preferences clearly."
+
+CANT_HELP:
+  - "Sorry, can't help with that."
+  - "Didn't get that. Can you rephrase?":
+    - rephrase: 1
+  - "I can't assist with that, sorry."
+  - "Could you rephrase that?":
+    - rephrase: 1
+  - "I'm unable to help with that."
+  - "I didn't catch that. Could you rephrase?":
+    - rephrase: 1
+
+CLOSING:
+  - "Good luck with your research! Bye!"
+  - "Happy researching! Goodbye!"
+  - "All the best with your research! Farewell!"
+  - "Goodbye and good luck with your work!"
+
+PROMPT_ADD_TO_PREFERENCES:
+  - Add it to your preferences?:
+    - count: 1
+  - Are these the topics to add?:
+    - count: 2
+  - Want to include it in your preferences?:
+    - count: 1
+  - Would you like to add these topics?:
+    - count: 2
+
+SUGGEST_REMOVE_PREFERENCES:
+  - "Remove any topics from your list or start over?"
+  - "Want to take any topics off your list or restart?"
+  - "Do you want to delete any topics or start fresh?"
+  - "Would you like to remove some topics or begin again?"

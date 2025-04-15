@@ -1,0 +1,110 @@
+INITIAL: 
+  - "Hello, I’m Ada. I would be delighted to assist you in finding some research papers."
+  - "Good day, I’m Ada. It would be my pleasure to help you in finding some research papers that may be useful to you."
+  - "Hi there, I’m Ada. I would be more than happy to assist you in exploring some research papers."
+
+ELICIT:
+  - "Could you please tell me which research topics you are interested in?":
+    - initial: 1
+  - "Could you share the research topics that interest you?":
+    - initial: 1
+  - "To get started, it would be helpful if you could share the research topics that interest you.":
+    - initial: 1
+  - "I would appreciate it if you could let me know which research topics interest you.":
+    - initial: 1
+  - "Would you mind telling me which topics you'd like to explore now?"
+  - "Might I ask what topics you would like us to explore now?"
+
+INFORM_PREFERENCES:
+  - Your current preferences include {topic}, and you prefer to exclude {exclude_topic}.
+  - You currently have a preference for {topic}, excluding {exclude_topic}.
+  - Your preferences show an interest in {topic} and an exclusion of {exclude_topic}.
+  - Your current preferences include {topic}.
+  - Your preferences show an interest in {topic}.
+  - You currently have a preference for {topic}.
+  - You have indicated that you are not interested in {exclude_topic}.
+  - Your preferences exclude {exclude_topic}.
+  - It appears that you have no specified preferences.
+
+ACKNOWLEDGE_PREFERENCE_UPDATE:
+  - "Your preference, {topic}, has been noted."
+  - "Got it, I've noted your preference for {topic}."
+  - "Understood, your preference for {topic} has been recorded."
+  - "Your preference, {topic}, excluding {exclude_topic}, has been noted."
+  - "Got it, I've noted your preference for {topic}, excluding {exclude_topic}."
+  - "Understood, your preference for {topic}, excluding {exclude_topic} has been recorded."
+  - "Preferences have not been updated."
+
+ACKNOWLEDGE_PREFERENCE_RESET:
+  - "I will proceed to reset your preferences."
+  - "Your preferences have been reset."
+  - "I've reset your preferences as requested."
+  - "Preferences have now been reset."
+
+SUGGEST_TOPICS:
+  - "Here are some related topics that you may wish to consider adding to your preferences, if they align with your interests."
+  - "If you’re open to it, you may want to explore these related topics for your preferences."
+  - "These related topics might be of interest to you, and you’re welcome to consider them at your convenience."
+  - "If it’s helpful, you may want to consider adding these topics to your preferences."
+
+RECOMMEND:
+  - "The recommendation panel has been updated accordingly.":
+    - overlap: 0.9
+  - "The recommendations have been refreshed for your review.":
+    - overlap: 0.9
+  - "The panel of recommendations has been updated for your convenience.":
+    - overlap: 0.9
+  - "Recommendations are not updated. You may want to adjust your preferences.":
+    - overlap: 1
+  - "It seems the recommendations have not changed. Perhaps you could update your preferences or consider starting over.":
+    - overlap: 1
+  - "No changes in recommendations. You might want to update preferences or restart.":
+    - overlap: 1
+
+INFORM_HELP:
+  - "Could you please state your preferences in natural language?"
+  - "Please express your preferences in natural language."
+  - "Kindly state your preferences in plain language."
+  - "Could you tell me your preferences in a straightforward manner?"
+
+CANT_HELP:
+  - "I'm sorry, but I'm unable to assist with that."
+  - "I'm afraid I didn't quite understand that. Would you mind rephrasing it?":
+    - rephrase: 1
+  - "I apologize, but I can't help with that."
+  - "I'm sorry, I didn't catch that. Could you please rephrase?":
+    - rephrase: 1
+  - "Regrettably, I cannot assist with that."
+  - "Could you perhaps rephrase? I didn't understand that.":
+    - rephrase: 1
+
+CLOSING:
+  - "Goodbye, and I wish you the best of luck with your research!"
+  - "Farewell, and good luck with your research endeavors!"
+  - "Take care, and all the best with your research!"
+  - "Goodbye, and best wishes for your research!"
+
+PROMPT_ADD_TO_PREFERENCES:
+  - "Would you like to add this to your preferences?":
+    - count: 1
+  - "Are these the topics you would like to add to your preferences?":
+    - count: 2
+  - "Would you prefer to add this to your preferences?":
+    - count: 1
+  - "Shall we add these topics to your preferences?":
+    - count: 2
+
+SUGGEST_REMOVE_PREFERENCES:
+  - "Would you like to remove any topics from your preferences, or start over?"
+  - "Do you wish to remove any topics from your list of preferences, or begin anew?"
+  - "Would you prefer to remove some topics or start afresh?"
+  - "Should we remove any topics from your preferences, or would you like to start over?"
+
+PROMPT_TO_RESET_PREFERENCES:
+  - "Are you sure you would like to reset your preferences?"
+  - "Would you like to proceed with resetting your preferences?"
+  - "Are you certain you want to reset your preferences?"
+
+
+# EXPLAIN_RECOMMENDATION:
+#   - "{explanation}"

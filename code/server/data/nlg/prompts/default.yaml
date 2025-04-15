@@ -1,0 +1,22 @@
+EXPLAIN_KEYPHRASE:
+  - "What is {topic} in one short sentence? Be as short and concise as possible! Only output the definition and nothing else. \n\n":
+    - count: 1
+  - "What are {topic} in one short sentence? Be as short and concise as possible! Only output the list of definitions and nothing else.\n\n":
+    - count: 2
+
+EXPLAIN_RECOMMENDATION:
+ - |
+  "Paper with title 
+  
+  {title}
+
+  and abstract
+
+  {abstract}
+
+  was recommended to me along with the following explanation:
+
+  {explanation}
+
+  
+  Concisely write why the paper was recommended by expanding the explanation and relating it to the paper title and abstract. Focus on mentioned keywords in the explanation. Be as short and concise as possible! Only output the explanation and nothing else. \n\n"

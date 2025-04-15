@@ -1,0 +1,790 @@
+Computer Science:
+  - Algorithms for graph theory
+  - Quantum computing basics
+  - Artificial intelligence in healthcare
+  - Cryptography and network security
+  - Blockchain technology and applications
+  - Virtual reality and augmented reality
+  - Robotics and automation
+  - Software development methodologies
+  - Database normalization techniques
+  - Distributed computing and cloud services
+Information Retrieval:
+  - Semantic search technologies
+  - Data mining in large datasets
+  - Text indexing and query languages
+  - Information filtering and personalization
+  - Web scraping techniques
+  - Natural language query processing
+  - Collaborative filtering in recommendation systems
+  - Machine learning in search engine optimization
+  - Big data analytics and visualization
+  - Document clustering and classification
+Conversational AI:
+  - Conversational Information Seeking
+  - Conversational Information Access
+  - Chatbot Information Retrieval
+  - Voice Search Optimization
+  - Conversational User Interfaces
+  - Dialogue Systems Design
+  - Natural Language Query Processing
+  - Speech-Based Information Systems
+  - Conversational AI Frameworks
+  - User Intent in Conversations
+  - Interactive Question Answering
+  - Multi-Turn Dialogue Handling
+  - Contextual Chatbot Responses
+  - Personalized Conversational Assistants
+  - AI in Conversational Search
+  - Query Refinement in Conversations
+  - Conversational Search Metrics
+  - Text-to-Speech in Information Seeking
+  - User-Centric Conversational Design
+  - Chatbots for Customer Support
+  - Conversational Agents in Healthcare
+  - Ethics in Conversational Systems
+  - Multimodal Conversational Interfaces
+  - Dialogue Management Algorithms
+  - User Feedback in Chatbots
+  - Conversational Agents in Education
+  - Voice Recognition in Information Seeking
+  - Conversational Summarization
+  - Natural Language Understanding in Dialogues
+  - Conversational Recommender Systems
+  - Conversational Systems in E-commerce
+  - Information Access via Voice Assistants
+  - Conversational Data Analysis
+  - Emotional Intelligence in Conversational AI
+  - User Experience in Conversational Interfaces
+  - Conversational Information Retrieval Techniques
+  - Privacy in Conversational Systems
+  - Conversational Analytics Tools
+  - Conversational UI for Libraries
+  - Conversational Systems in Finance
+  - Conversational Agents for Travel Assistance
+  - Conversational Information Browsing
+  - Chatbots and Language Processing
+  - Conversational Systems for Social Media
+  - Context Awareness in Conversational AI
+  - Conversational Information Filtering
+  - Conversational AI in Retail
+  - Conversational Agents for Content Discovery
+  - Adaptive Conversational Interfaces
+  - Cross-Language Conversational Systems
+  - preference elicitation
+  - user modeling
+  - preference modeling
+5G:
+  - 5G network protocols and standards
+  - Mobile edge computing in 5G
+  - Security challenges in 5G networks
+  - 5G for smart cities and IoT
+  - Energy efficiency in 5G networks
+  - 5G and virtual network functions
+  - Millimeter wave technology in 5G
+  - Network slicing and resource allocation
+  - 5G for autonomous vehicles
+  - 5G in telemedicine and e-health
+Edge Computing:
+  - Real-time analytics at the edge
+  - Edge computing in IoT ecosystems
+  - Security concerns in edge computing
+  - Edge computing versus cloud computing
+  - Data management in edge devices
+  - Edge computing in smart manufacturing
+  - Energy-efficient edge computing
+  - Scalability issues in edge networks
+  - Edge computing in 5G networks
+  - AI-driven edge computing solutions
+Image Processing:
+  - Digital image enhancement techniques
+  - Machine learning in image recognition
+  - 3D image processing and analysis
+  - Biomedical image processing
+  - Image segmentation methods
+  - Computer vision in autonomous vehicles
+  - Image compression algorithms
+  - Facial recognition technologies
+  - Remote sensing and satellite imagery
+  - Image synthesis and generative models
+Data and Computer Science:
+  - Algorithm Design
+  - Machine Learning
+  - Quantum Computing
+  - Cybersecurity
+  - Blockchain
+  - Augmented Reality
+  - Robotics
+  - Software Engineering
+  - Cloud Computing
+  - Distributed Systems
+  - Semantic Search
+  - Data Mining
+  - Text Indexing
+  - Web Scraping
+  - Natural Language Processing
+  - Big Data
+  - Document Clustering
+  - 5G Standards
+  - IoT Integration
+  - Network Security
+  - Smart Cities
+  - Energy Efficiency
+  - Virtual Networks
+  - Telemedicine
+  - Edge Analytics
+  - IoT Ecosystems
+  - Data Management
+  - Scalability
+  - AI in Edge Computing
+  - Image Enhancement
+  - Image Recognition
+  - 3D Image Processing
+  - Biomedical Imaging
+  - Image Segmentation
+  - Computer Vision
+  - Image Compression
+  - Facial Recognition
+  - Satellite Imagery
+  - Generative Models
+  - Genetics
+  - Microbiology
+  - Botany
+  - Ecology
+  - Organic Chemistry
+  - Inorganic Chemistry
+  - Biochemistry
+  - Simulation Techniques
+  - Mathematical Modeling
+  - Predictive Analytics
+  - Graph Theory
+  - Cryptography
+  - Virtual Reality
+  - Automation
+  - Database Systems
+  - Cloud Services
+  - Semantic Technologies
+  - Query Languages
+  - Information Filtering
+  - Language Modeling
+  - Visualization
+  - 5G Protocols
+  - Mobile Edge Computing
+  - Millimeter Waves
+  - Network Slicing
+  - Autonomous Vehicles
+  - Real-time Analytics
+  - Security Concerns
+  - Smart Manufacturing
+  - 5G Networks
+  - Digital Imaging
+  - Machine Vision
+  - Biometric Systems
+  - Remote Sensing
+  - Synthesis Models
+  - Genetic Engineering
+  - Cellular Biology
+  - Environmental Science
+  - Analytical Chemistry
+  - Computational Biology
+  - Predictive Modelling
+  - Data Structures
+  - AI Ethics
+  - Human-Computer Interaction
+  - Network Architecture
+  - E-Health
+  - Cloud-Edge Interaction
+  - Latency Reduction
+  - Data Privacy
+  - VR Applications
+  - Wearable Technology
+  - Indexing Algorithms
+  - Collaborative Filtering
+  - SEO Techniques
+  - Resource Allocation
+  - Health Informatics
+  - Edge Devices
+  - Pattern Recognition
+  - Enhancement Algorithms
+  - Medical Imaging
+  - Image Synthesis
+Physics:
+  - Classical Mechanics
+  - Quantum Mechanics
+  - Thermodynamics
+  - Electromagnetism
+  - Relativity Theory
+  - Particle Physics
+  - Solid State Physics
+  - Nuclear Physics
+  - Astrophysics
+  - Fluid Dynamics
+  - Quantum Field Theory
+  - Plasma Physics
+  - Acoustics
+  - Optics
+  - Statistical Mechanics
+  - Condensed Matter
+  - Cosmology
+  - String Theory
+  - Biophysics
+  - Geophysics
+  - Superconductivity
+  - Chaos Theory
+  - Materials Science
+  - Photovoltaics
+  - Quantum Computing
+  - Nanotechnology
+  - Energy Physics
+  - Environmental Physics
+  - Computational Physics
+  - Quantum Optics
+  - Aerodynamics
+  - Quantum Entanglement
+  - Magnetic Resonance
+  - Semiconductor Physics
+  - Atomic Structure
+  - Subatomic Particles
+  - Gravitational Physics
+  - Quantum Gravity
+  - High Energy Physics
+  - Space-Time
+  - Neutrino Physics
+  - Dark Matter
+  - Dark Energy
+  - Galactic Astronomy
+  - Exoplanets
+  - Solar Physics
+  - Quantum Electrodynamics
+  - Superfluidity
+  - Holography
+  - Light-matter Interaction
+  - Nonlinear Dynamics
+  - Crystallography
+  - Laser Physics
+  - Particle Accelerators
+  - Synchrotron Radiation
+  - Antimatter
+  - Black Hole Physics
+  - Fiber Optics
+  - Spectroscopy
+  - Wave Mechanics
+  - Nanophotonics
+  - Astrophysical Jets
+  - Quantum Cryptography
+  - Electroweak Theory
+  - Quantum Hall Effect
+  - Quantum Teleportation
+  - Nuclear Fusion
+  - Radiation Detection
+  - Quantum Sensors
+  - Space Exploration
+  - Theoretical Physics
+  - Experimental Physics
+  - Applied Physics
+  - Mechanics of Materials
+  - Fluid Mechanics
+  - Quantum Simulation
+  - Quantum Information
+  - Thermal Physics
+  - Molecular Physics
+  - Orbital Mechanics
+  - Electrodynamics
+  - Magnetohydrodynamics
+  - Photonics
+  - Quantum Dots
+  - String Cosmology
+  - Quantum Chromodynamics
+  - Planetary Science
+  - Kinematics
+  - Quantum Wells
+  - Neutron Scattering
+  - Ultracold Atoms
+  - Bose-Einstein Condensates
+  - Loop Quantum Gravity
+  - Stellar Astrophysics
+  - The Standard Model
+  - Polarization
+  - Optical Networks
+  - Atmospheric Physics
+  - Metrology
+  - Quantum Anomalies
+Chemistry:
+  - Organic Chemistry
+  - Inorganic Chemistry
+  - Physical Chemistry
+  - Analytical Chemistry
+  - Biochemistry
+  - Theoretical Chemistry
+  - Environmental Chemistry
+  - Industrial Chemistry
+  - Medicinal Chemistry
+  - Polymer Chemistry
+  - Quantum Chemistry
+  - Electrochemistry
+  - Thermochemistry
+  - Photochemistry
+  - Nuclear Chemistry
+  - Solid State Chemistry
+  - Surface Chemistry
+  - Agricultural Chemistry
+  - Food Chemistry
+  - Green Chemistry
+  - Computational Chemistry
+  - Synthetic Chemistry
+  - Catalysis
+  - Materials Science
+  - Chemical Kinetics
+  - Spectroscopy
+  - Chromatography
+  - Mass Spectrometry
+  - NMR Spectroscopy
+  - Crystallography
+  - Chemical Thermodynamics
+  - Chemical Bonding
+  - Molecular Orbitals
+  - Reaction Mechanisms
+  - Acid-Base Chemistry
+  - Redox Reactions
+  - Coordination Compounds
+  - Organometallic Chemistry
+  - Stereochemistry
+  - Chemical Equilibrium
+  - Colloid and Interface Science
+  - Petrochemistry
+  - Forensic Chemistry
+  - Atmospheric Chemistry
+  - Marine Chemistry
+  - Geochemistry
+  - Nanotechnology
+  - Radiochemistry
+  - Polymerization
+  - Drug Design
+  - Enzyme Kinetics
+  - Metallurgy
+  - Chemical Safety
+  - Chemical Sensors
+  - Supramolecular Chemistry
+  - Bioinorganic Chemistry
+  - Physical Organic Chemistry
+  - Chiral Chemistry
+  - Flavor Chemistry
+  - Cosmetic Chemistry
+  - Chemical Engineering
+  - Molecular Dynamics
+  - Separation Processes
+  - Electroanalytical Chemistry
+  - Flow Chemistry
+  - Photovoltaics
+  - Biomolecular Chemistry
+  - Chemical Education
+  - Peptide Synthesis
+  - Glycochemistry
+  - Proteomics
+  - Metabolomics
+  - Lipid Chemistry
+  - Carbohydrate Chemistry
+  - Aromatic Compounds
+  - Aliphatic Compounds
+  - Transition Metal Chemistry
+  - Organophosphorus Chemistry
+  - Fuel Cells
+  - Biopolymers
+  - Synthetic Biology
+  - Chemical Informatics
+  - Molecular Modeling
+  - Environmental Analysis
+  - Trace Analysis
+  - Chemometrics
+  - Phytochemistry
+  - Polymer Blends
+  - Non-covalent Interactions
+  - Electroplating
+  - Corrosion Chemistry
+  - Battery Chemistry
+  - Dye Chemistry
+  - Paint Chemistry
+  - Textile Chemistry
+  - Cement Chemistry
+  - Ceramic Materials
+  - Glass Chemistry
+  - Industrial Gases
+  - Pesticide Chemistry
+Biology:
+  - Cell Biology
+  - Molecular Biology
+  - Genetics
+  - Evolutionary Biology
+  - Ecology
+  - Microbiology
+  - Botany
+  - Zoology
+  - Marine Biology
+  - Human Biology
+  - Physiology
+  - Biochemistry
+  - Developmental Biology
+  - Neurobiology
+  - Biophysics
+  - Immunology
+  - Pathology
+  - Pharmacology
+  - Toxicology
+  - Endocrinology
+  - Environmental Biology
+  - Agricultural Biology
+  - Virology
+  - Mycology
+  - Ethology
+  - Paleontology
+  - Conservation Biology
+  - Biotechnology
+  - Bioinformatics
+  - Genomics
+  - Proteomics
+  - Metabolomics
+  - Systems Biology
+  - Structural Biology
+  - Computational Biology
+  - Synthetic Biology
+  - Epigenetics
+  - Behavioral Biology
+  - Population Biology
+  - Biogeography
+  - Plant Physiology
+  - Animal Physiology
+  - Human Anatomy
+  - Cytogenetics
+  - Molecular Genetics
+  - Evolutionary Genetics
+  - Biodiversity
+  - Biostatistics
+  - Phylogenetics
+  - Cell Signaling
+  - Genetic Engineering
+  - Reproductive Biology
+  - Stem Cell Biology
+  - Cancer Biology
+  - Medical Biology
+  - Bioengineering
+  - Animal Behavior
+  - Plant Morphology
+  - Soil Biology
+  - Aquatic Biology
+  - Entomology
+  - Ornithology
+  - Herpetology
+  - Mammalogy
+  - Ichthyology
+  - Paleobiology
+  - Bioethics
+  - Wildlife Biology
+  - Forensic Biology
+  - Horticulture
+  - Food Science
+  - Biomaterials
+  - Biomechanics
+  - Chronobiology
+  - Epidemiology
+  - Parasitology
+  - Algology
+  - Bryology
+  - Lichenology
+  - Radiobiology
+  - Astrobiology
+  - NanoBiotechnology
+  - Molecular Ecology
+  - Biogeochemistry
+  - Developmental Genetics
+  - Nutritional Biology
+  - Plant Pathology
+  - Animal Genetics
+  - Plant Genetics
+  - Comparative Biology
+  - Functional Genomics
+  - Transcriptomics
+  - Biological Anthropology
+  - Psychobiology
+  - Bioclimatology
+  - Bioremediation
+  - Biomonitoring
+  - Biogeosciences
+  - Molecular Pathology
+  - Biomedical Research
+User Study:
+  - Quantum Chromodynamics (QCD)
+  - Lattice QCD Techniques
+  - Heavy Quarkonia in Colliders
+  - Feynman Path Integral Applications
+  - Charmonium Studies
+  - Bottomonium Physics
+  - Quark-Gluon Plasma Analysis
+  - Thermalization in Quarkonium
+  - Density Matrix in Quantum Theory
+  - Open Quantum System Dynamics
+  - Quantum Thermodynamics
+  - Strong Interaction Computations
+  - Quantum Entanglement in QCD
+  - Quantum Electrodynamics (QED)
+  - High-Energy Particle Physics
+  - Quantum State Evolution
+  - Computational Quantum Field Theory
+  - Gluon Dynamics
+  - Quark-Gluon Interaction Models
+  - Relativistic Quantum Mechanics
+  - Quantum Field Theory at Finite Temperature
+  - Particle Collider Experiments
+  - Quantum Simulation Methods
+  - Ultra Cold Quantum Gases
+  - Quantum Brownian Motion
+  - Quantum Gas Thermometry
+  - Quantum Mechanical Models
+  - Low-Temperature Physics Applications
+  - Caldeira-Leggett Model Analysis
+  - Quantum System Simulation
+  - Quantum Measurement Techniques
+  - Quantum Computing in Physics
+  - Quantum Mechanics of Atom
+  - Quantum Particle Dynamics
+  - Statistical Mechanics in Quantum Systems
+  - Particle Physics Beyond the Standard Model
+  - Quantum Phase Transitions
+  - Quantum Critical Phenomena
+  - Quantum Hall Effect
+  - Quantum Materials
+  - Quantum Information Theory
+  - Quantum Transport Phenomena
+  - Quantum Cryptography
+  - Quantum Error Correction
+  - Quantum Metrology
+  - Quantum Coherence and Decoherence
+  - Quantum Spin Liquids
+  - Quantum Algorithms
+  - Quantum Mechanics in Condensed Matter
+  - Quantum Oscillations
+  - Quantum Stochastic Processes
+  - Quantum Foundations
+  - Nevanlinna Analytic Continuation
+  - Bayesian Inference in Physics
+  - Inverse Problems in Quantum Systems
+  - Imaginary Time Quantum Dynamics
+  - Pade Approximation in Quantum Physics
+  - Quantum Mechanics in Functional Materials
+  - Quantum Optics
+  - Quantum Chemical Dynamics
+  - Quantum Mechanics of Black Holes
+  - Quantum Field Theory in Curved Spacetime
+  - Neutrino Physics
+  - Higgs Boson Research
+  - Quantum Teleportation
+  - Quantum Mechanical Tunneling
+  - Quantum Chaos Theory
+  - Quantum Machine Learning
+  - Quantum Annealing
+  - Quantum Biophysics
+  - Quantum Knot Theory
+  - Quantum Control and Feedback
+  - Quantum Particle in a Potential Well
+  - Quantum Electrodynamics (QED)
+  - Quantum Interferometry
+  - Quantum Field Theory and Renormalization
+  - Quantum Nonlocality and Bell's Theorem
+  - Quantum Biology
+  - Quantum Algorithms for Optimization
+  - Quantum Computing Algorithms
+  - Exotic Quantum States
+  - Quantum Entanglement Entropy
+  - Quantum Gravitational Physics
+  - Quantum Thermometers
+  - Quantum Gas Experiments
+  - Ultra-Low Temperature Experiments
+  - Quantum Mechanics of Many-Body Systems
+  - Quantum Simulation of Molecules
+  - Quantum Heat Engines
+  - Quantum Cryptography Applications
+  - Quantum Mechanics in Astrophysics
+  - Quantum Materials in Technology
+  - Quantum Effects in Biological Systems
+  - Quantum Mechanics in Nanotechnology
+  - Quantum Mechanics and Cosmology
+  - Quantum Phase Transition Models
+  - Quantum Noise and Fluctuations
+  - Quantum Mechanics in New Materials
+  - Quantum Dynamics in Physical Systems
+  - Quantum Techniques in Particle Physics
+  - Quantum Chromodynamics (QCD) Fundamentals
+  - Lattice QCD Simulations
+  - Strong Interaction Physics
+  - Gluon Dynamics in Quark-Gluon Plasma
+  - Feynman Path Integral in Quantum Mechanics
+  - High Energy Particle Colliders
+  - Theoretical Models of Charmonium
+  - Bottomonium States and Properties
+  - Thermalization Processes in High Energy Physics
+  - Density Matrix Theory in Quantum Physics
+  - Open Quantum Systems and Their Dynamics
+  - Quantum Thermodynamics
+  - Computational Methods in Quantum Field Theory
+  - Charmonium Spectroscopy
+  - Quantum State Evolution in Hot Medium
+  - Quark-Gluon Plasma Characteristics
+  - Heavy-Ion Collision Dynamics
+  - Non-Perturbative Methods in QCD
+  - Relativistic Quantum Mechanics
+  - Quantum Entanglement in Particle Physics
+  - Bayesian Inference in Physics
+  - Inverse Problems in Quantum Physics
+  - Pade Approximation Techniques
+  - Analytic Continuation in Complex Analysis
+  - Quantum Systems in Imaginary Time
+  - Nuclear Matter Under Extreme Conditions
+  - Simulating Functional Materials
+  - Quantum Information Theory
+  - Algorithms for Quantum Simulation
+  - Ultra Cold Quantum Gases
+  - Quantum Measurement Theory
+  - Low-Temperature Physics
+  - Quantum Brownian Motion Models
+  - Caldeira-Leggett Model in Quantum Theory
+  - Numerical Methods in Quantum Mechanics
+  - Quantum Gas Thermometry
+  - Theoretical Aspects of Quantum Computing
+  - Quantum Mechanical Models of Atom
+  - Experimental Techniques in Low-Temperature Physics
+  - Quantum Particle in a Potential Well
+  - Statistical Mechanics in Quantum Systems
+  - Decoherence in Quantum Systems
+  - Quantum Noise and Fluctuations
+  - Particle Physics in the Standard Model
+  - Heavy Quark Effective Theory
+  - QCD Phase Transitions
+  - Hadron Physics and QCD
+  - Non-equilibrium Quantum Field Theory
+  - Simulating Quantum Chromodynamics
+  - Quantum Field Theory at Finite Temperature
+  - Modern Techniques in Computational Physics
+  - Quantum Optics and Quantum Information
+  - Quantum Mechanics of Many-Body Systems
+  - Quantum Coherence and Decoherence
+  - Particle Physics Beyond the Standard Model
+  - Quantum Simulation of Molecular Systems
+  - Quantum Heat Engines and Refrigerators
+  - Computational Challenges in High-Energy Physics
+  - Quantum Phase Transitions
+  - Entanglement Entropy in Quantum Fields
+  - Quantum Gravity and Cosmology
+  - Quantum Critical Phenomena
+  - Quantum Hall Effect
+  - Quantum Computing Algorithms
+  - Quantum Transport in Nanostructures
+  - Quantum Cryptography
+  - Quantum Metrology and Sensing
+  - Quantum Error Correction
+  - Quantum Topological Phases
+  - Quantum Fluctuations in Condensed Matter Physics
+  - Quantum Dynamics in Confined Systems
+  - Quantum Mechanics of Black Holes
+  - Quantum Field Theory in Curved Spacetime
+  - Neutrino Physics and Astrophysics
+  - LHC Experiments and Data Analysis
+  - Higgs Boson Physics
+  - Quantum Teleportation Theory
+  - Quantum Mechanical Tunneling
+  - Quantum Chaos Theory
+  - Quantum Algorithms for Optimization Problems
+  - Quantum Machine Learning
+  - Exotic States of Matter in Quantum Physics
+  - Quantum Knot Theory
+  - Quantum Biology
+  - Quantum Chemical Dynamics
+  - Quantum Paradoxes and Thought Experiments
+  - Quantum Mechanics in Condensed Matter
+  - Quantum Effects in Biological Systems
+  - Quantum Control and Feedback
+  - Quantum Electrodynamics (QED)
+  - Quantum Interferometry
+  - Quantum Field Theory and Renormalization
+  - Quantum Nonlocality and Bell's Theorem
+  - Quantum Materials and Superconductivity
+  - Quantum Spin Liquids
+  - Quantum Annealing and Computation
+  - Quantum Mechanics of Spin Systems
+  - Quantum Oscillations
+  - Quantum Stochastic Processes
+  - Quantum Foundations and Interpretations
+  - Heavy quarkonia
+  - LHC at CERN
+  - RHIC at BNL
+  - gluons
+  - Feynman path integral
+  - quantum chromodynamics
+  - open quantum systems approach
+  - density matrix
+  - strongly interacting quantum systems
+  - imaginary time domain
+  - Minkowski time
+  - inverse problem
+  - Bayesian inference
+  - Nevanlinna analytic continuation
+  - quantum computers
+  - quantum properties
+  - ultra cold quantum gases
+  - quantum behavior
+  - quantum counterpart
+  - quantum Brownian motion
+  - open quantum systems
+  - numerical tools
+  - Caldeira-Leggett model
+  - Modelling
+  - heavy quark bound states
+  - ultrarelativistic
+  - heavy-ion collisions
+  - LHC
+  - CERN
+  - heavy quarkonia
+  - charmonium
+  - bottomonium
+  - high-energy collisions
+  - quarkonia
+  - thermometer
+  - high temperatures
+  - 10^12K
+  - quark-antiquark pairs
+  - gluon environment
+  - quantum chromodynamics theory
+  - computer simulations
+  - perturbation theory
+  - strong quark-gluon interactions
+  - open quantum systems approach
+  - condensed matter physics
+  - thermal equilibrium
+  - Nevanlinna spectral reconstruction
+  - simulating quantum systems
+  - strong interactions
+  - theoretical physics
+  - energy scales
+  - nuclear matter
+  - high-temperature collisions
+  - electron dynamics
+  - materials
+  - imaginary time domain
+  - reconstructing physics data
+  - inverse problem
+  - modern data analysis methods
+  - Bayesian inference
+  - Nevanlinna analytic continuation technique
+  - Pade approximation
+  - Quantum Brownian Motion
+  - quantum computing
+  - ultra cold quantum gases
+  - measuring temperature
+  - extremely low temperatures
+  - quantum behavior
+  - probe particles
+  - Theory of open quantum systems
+  - quantum Brownian motion
+  - classical Brownian motion
+  - software development
+  - one-dimensional Caldeira-Leggett model
+  - numerical simulation
+  - complex quantum systems

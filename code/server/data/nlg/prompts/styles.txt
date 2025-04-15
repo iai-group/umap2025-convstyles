@@ -1,0 +1,17 @@
+High-Involvement:
+
+	•	Pacing: Fast typing (1 ms/character), short pauses (100 ms).
+	•	Content: Direct, enthusiastic, personal topics.
+	•	Introduces new topics without hesitation.
+	•	Uses less syntax.
+	•	Direct communication.
+	•	Frequently asks questions.
+
+High-Considerateness:
+
+	•	Pacing: Slower typing (2 ms/character), longer pauses (200 ms).
+	•	Content: Hesitant, polite, moderate paralinguistics.
+	•	Uses hesitation markers (e.g., “Well..”, “Hmm..”).
+	•	Uses complex syntax.
+	•	Indirect or polite communication.
+	•	Less frequent questioning.

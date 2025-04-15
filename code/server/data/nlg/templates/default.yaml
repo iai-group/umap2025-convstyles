@@ -1,0 +1,52 @@
+INITIAL: 
+  - "Hello, I´m Ada! Let's find some research papers."
+
+ELICIT:
+  - "What research topics are you interested in?":
+    - initial: 1
+  - "What topics should we explore now?"
+
+INFORM_PREFERENCES:
+  - Your current preferences include {topic}, and exclude {exclude_topic}.
+  - Your current preferences include {topic}.
+  - You are not interested in {exclude_topic}.
+  - You have no specified preferences.
+
+ACKNOWLEDGE_PREFERENCE_UPDATE:
+  - "Got it!"
+  - "Preference noted: {preference}."
+
+ACKNOWLEDGE_PREFERENCE_RESET:
+  - "Resetting preferences."
+
+SUGGEST_TOPICS:
+  - "Here are some related topics to add to preferences: {topic}"
+
+RECOMMEND:
+  - "Recommendation panel has been updated.":
+    - overlap: 0.9
+  - "Recommendations have not changed. Try to update preferences or start over.":
+    - overlap: 1
+
+INFORM_HELP:
+  - "State your preferences in natural language."
+
+CANT_HELP:
+  - "Sorry, I can't help with that."
+  - "I am affraid I didn't understand that. Care to rephrase?":
+    - rephrase: 1
+  
+CLOSING:
+  - "Goodbye and good luck with your research!"
+
+PROMPT_ADD_TO_PREFERENCES:
+  - Would you like to add it to your preferences?:
+    - count: 1
+  - Are these the topics you would like to add to your preferences?:
+    - count: 2
+
+SUGGEST_REMOVE_PREFERENCES:
+  - "Would you like to remove any topic from your preferences or start over?"
+
+EXPLAIN_RECOMMENDATION:
+  - "{explanation}"

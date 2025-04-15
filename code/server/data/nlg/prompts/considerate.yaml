@@ -1,0 +1,17 @@
+EXPLAIN_KEYPHRASE:
+  - "What is {topic} in one short sentence? Start by saying '{topics} is'. Be as short and concise as possible! Only output the definition and nothing else. \n\n":
+    - count: 1
+  - "What are {topic} in one short sentence? Be as short and concise as possible! Only output the list of definitions and nothing else. In the response, markup the topics with <strong><strong\\>.\n\n":
+    - count: 2
+
+EXPLAIN_RECOMMENDATION:
+ - |
+  "Given explanation for recommendation:
+
+  {explanation}
+
+  and the paper abstract:
+
+  {abstract}
+
+  Concisely relate the mentioned explanation to the paper abstract. Be very polite and as short and concise as possible! Only output the relation and nothing else. \n\n"

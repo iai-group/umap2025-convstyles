@@ -1,0 +1,17 @@
+black
+flake8
+pytest
+mypy
+docformatter
+pre-commit
+pydocstyle==6.1.1
+dialoguekit==0.0.9-dev0
+pyyaml
+transformers
+torch
+torchvision
+pytorch-lightning
+wandb
+wikipedia-api
+sentencepiece
+ollama

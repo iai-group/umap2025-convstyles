@@ -1,9 +1,9 @@
 # Should We Tailor the Talk? Understanding the Impact of Conversational Styles on Preference Elicitation in Conversational Recommender Systems
 
 
-This repository provides resources developed within the following article [[PDF](https://arxiv.org/abs/TODO_FIX_LINK)]:
+This repository provides resources developed within the following article [[PDF](https://arxiv.org/abs/TODO_FIX_LINK)] (To be published in UMAP 2025):
 
-> I. Kostric, K. Balog, U. Gadiraju. **Should We Tailor the Talk? Understanding the Impact of Conversational Styles on Preference Elicitation in Conversational Recommender Systems** In: 33rd ACM Conference on User Modeling, Adaptation and Personalization (UMAP ’25), June 16–19, 2025, New York City, NY, USA. ACM, New York, NY, USA, 10 pages. [DOI: 10.1145/3699682.3728353](https://doi.org/10.1145/3699682.3728353)
+> I. Kostric, K. Balog, U. Gadiraju. **Should We Tailor the Talk? Understanding the Impact of Conversational Styles on Preference Elicitation in Conversational Recommender Systems** In: Proceedings of the 33rd ACM Conference on User Modeling, Adaptation and Personalization (UMAP ’25), June 2025. [DOI: 10.1145/3699682.3728353](https://doi.org/10.1145/3699682.3728353)
 
 
 ## Summary
@@ -46,26 +46,16 @@ ADA includes the following components:
 Run the main module to start the server:
 
 ```sh
-python -m ada.main -p <port>
+python -m code.server -p <port>
 ```
 
-Additional command-line options are available, as defined in `main.py`.
+Additional command-line options are available, as defined in `code/server/__main__.py`.
 
 ## Citation
 
 If you use the resources presented in this repository, please cite:
 
-```
-@inproceedings{Kostric:2025:UMAP,
-  author =    {Ivica Kostric, Krisztian Balog, Ujwal Gadiraju},
-  title =     {Should We Tailor the Talk? Understanding the Impact of Conversational Styles on Preference Elicitation in Conversational Recommender Systems},
-  booktitle = {33rd ACM Conference on User Modeling, Adaptation and Personalization (UMAP ’25)},
-  series =    {UMAP '25},
-  year =      {2025},
-  doi =       {10.1145/3699682.3728353},
-  publisher = {ACM}
-}
-```
+TBD
 
 ## Contact
 
