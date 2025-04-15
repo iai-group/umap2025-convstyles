@@ -1,0 +1,7 @@
+.chat-widget-content .card-body{
+    max-height: max(300px, calc(100vh - 350px));
+   }
+
+.content-container .container {
+    margin-top: 10px;
+}
