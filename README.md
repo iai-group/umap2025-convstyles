@@ -79,6 +79,7 @@ This will start a local server on `http://localhost:3000`. You can access the ap
 
 If you use the resources presented in this repository, please cite:
 
+```
 @misc{Kostric:2025:arXiv,
   title = {Should We Tailor the Talk? Understanding the Impact of Conversational Styles on Preference Elicitation in Conversational Recommender Systems},
   author = {Kostric, Ivica and Balog, Krisztian and Gadiraju, Ujwal},
@@ -86,6 +87,7 @@ If you use the resources presented in this repository, please cite:
   eprint = {2504.13095},
   archiveprefix = {arXiv}
 }
+```
 
 
 ## Contact
