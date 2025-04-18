@@ -1,15 +1,28 @@
 # Should We Tailor the Talk? Understanding the Impact of Conversational Styles on Preference Elicitation in Conversational Recommender Systems
 
-This repository provides resources developed within the following article [[PDF](https://arxiv.org/abs/TODO_FIX_LINK)] (To be published in UMAP 2025):
+This repository provides resources developed within the following article [[PDF](https://arxiv.org/abs/2504.13095)] (To be published in UMAP 2025):
 
 > I. Kostric, K. Balog, U. Gadiraju. **Should We Tailor the Talk? Understanding the Impact of Conversational Styles on Preference Elicitation in Conversational Recommender Systems** In: Proceedings of the 33rd ACM Conference on User Modeling, Adaptation and Personalization (UMAP ’25), June 2025. [DOI: 10.1145/3699682.3728353](https://doi.org/10.1145/3699682.3728353)
 
 ## Summary
 
 Conversational recommender systems (CRSs) provide users with an interactive means to express preferences and receive real-time personalized recommendations. The success of these systems is heavily influenced by the preference elicitation process.
-While existing research mainly focuses on what questions to ask during preference elicitation, there is a notable gap in understanding what role broader interaction patterns---including tone, pacing, and level of proactiveness---play in supporting users in completing a given task. This study investigates the impact of different conversational styles on preference elicitation, task performance, and user satisfaction with CRSs.
-We conducted a controlled experiment in the context of scientific literature recommendation, contrasting two distinct conversational styles---*high involvement* (fast-paced, direct, and proactive with frequent prompts) and *high considerateness* (polite and accommodating, prioritizing clarity and user comfort)---alongside a flexible experimental condition where users could switch between the two.
-Our results indicate that adapting conversational strategies based on user expertise and allowing flexibility between styles can enhance both user satisfaction and the effectiveness of recommendations in CRSs. Overall, our findings hold important implications for the design of future CRSs.
+While existing research mainly focuses on what questions to ask during preference elicitation, there is a notable gap in understanding what role broader interaction patterns including tone, pacing, and level of proactiveness play in supporting users in completing a given task. This study investigates the impact of different conversational styles on preference elicitation, task performance, and user satisfaction with CRSs.
+We conducted a controlled experiment in the context of scientific literature recommendation, contrasting two distinct conversational styles, high involvement (fast paced, direct, and proactive with frequent prompts) and high considerateness (polite and accommodating, prioritizing clarity and user comfort) alongside a flexible experimental condition where users could switch between the two.
+Our results indicate that adapting conversational strategies based on user expertise and allowing flexibility between styles can enhance both user satisfaction and the effectiveness of recommendations in CRSs.
+
+## Overview
+
+A table overview of the distinct style features.
+
+| **Criteria**               | **High Involvement**  | **High Considerateness** |
+|----------------------------|-----------------------|--------------------------|
+| C1. Rate of speech         | fast                  | slow                     |
+| C2. Turn-taking            | fast                  | slow                     |
+| C3. Introduction of topics | w/o hesitation        | w/ hesitation            |
+| C4. Use of syntax          | simple                | complex                  |
+| C5. Directness of content  | direct                | indirect                 |
+| C6. Utterance of questions | frequent              | rare                     |
 
 ## Overview
 
@@ -66,7 +79,14 @@ This will start a local server on `http://localhost:3000`. You can access the ap
 
 If you use the resources presented in this repository, please cite:
 
-TBD
+@misc{Kostric:2025:arXiv,
+  title = {Should We Tailor the Talk? Understanding the Impact of Conversational Styles on Preference Elicitation in Conversational Recommender Systems},
+  author = {Kostric, Ivica and Balog, Krisztian and Gadiraju, Ujwal},
+  year = {2025},
+  eprint = {2504.13095},
+  archiveprefix = {arXiv}
+}
+
 
 ## Contact
 
