@@ -6,14 +6,16 @@ This repository provides resources developed within the following article [[PDF]
 
 ## Summary
 
-Conversational recommender systems (CRSs) provide users with an interactive means to express preferences and receive real-time personalized recommendations. The success of these systems is heavily influenced by the preference elicitation process.
-While existing research mainly focuses on what questions to ask during preference elicitation, there is a notable gap in understanding what role broader interaction patterns including tone, pacing, and level of proactiveness play in supporting users in completing a given task. This study investigates the impact of different conversational styles on preference elicitation, task performance, and user satisfaction with CRSs.
-We conducted a controlled experiment in the context of scientific literature recommendation, contrasting two distinct conversational styles, high involvement (fast paced, direct, and proactive with frequent prompts) and high considerateness (polite and accommodating, prioritizing clarity and user comfort) alongside a flexible experimental condition where users could switch between the two.
-Our results indicate that adapting conversational strategies based on user expertise and allowing flexibility between styles can enhance both user satisfaction and the effectiveness of recommendations in CRSs.
+Conversational recommender systems (CRSs) let users express preferences interactively and receive real‑time personalized recommendations. Their success depends heavily on preference elicitation. While prior work has focused on what to ask, little is known about how broader interaction patterns—tone, pacing, and proactiveness affect task success.
 
-## Overview
+We ran a controlled experiment in scientific‑paper recommendation, contrasting two conversational styles:
 
-A table overview of the distinct style features.
+  * High involvement - fast paced, direct and highly proactive
+  * High considerateness - polite and accommodating, prioritizing clarity and user comfort
+
+Participants also experienced a flexible condition in which they could switch between styles. Results show that adapting style to user expertise, and letting users switch, improves both satisfaction and recommendation quality.
+
+## Conversational‑style criteria
 
 | **Criteria**               | **High Involvement**  | **High Considerateness** |
 |----------------------------|-----------------------|--------------------------|
@@ -24,16 +26,20 @@ A table overview of the distinct style features.
 | C5. Directness of content  | direct                | indirect                 |
 | C6. Utterance of questions | frequent              | rare                     |
 
-## Overview
+## Study UI
 
-The code is split into 2 parts: server and client, which are adapted from [ArxivDigest Assistant](https://github.com/iai-group/arxivdigest-assistant) and [ChatWidget](https://github.com/iai-group/ChatWidget). Server code includes the following components:
+The figure below shows the UI seen by participants.
 
-  - **Agent & Dialogue Management:** Implemented in [agent](code/server/ada/agent/agent.py) and [dialogue_manager](ada/agent/dialogue_manager/dialogue_manager.py).
-  - **User Model:** Managed in [user model](code/server/ada/external/user_model/ada_user_model.py).
-  - **Configuration:** Defined in [config](code/server/config/config.yaml).
-  - **Main Entry Point:** Located [here](code/server/ada/main.py).
+  * A: Main study navigation.
+  * B: Chat interface. The header contains the style switch. In the first two tasks the switch is disabled; in the final task participants may toggle styles.
+  * C: Tabs controlling the task context
+    - Research topic — title and description of the topic
+    - Recommendations — current paper recommendations
+    - Bookmarks — bookmarked papers for the active task
+  * D: Content area that reflects the selected tab.
 
-Client code is based on react and should be built using npm. The client code is located in the `code/client` directory.
+![UI](code/client/src/components/StudyPages/Static/ui-mock-marked.png)
+
 
 ## Installation
 
@@ -44,48 +50,37 @@ Client code is based on react and should be built using npm. The client code is 
    cd umap2025-convstyles
    ```
 
-3. **Set up configuration:**
+2. **Run the server and client:**
 
-    Create the configuration in code/server/config/config.yaml.
+Follow the instructions in the [client README](code/client/README.md) and [server README](code/server/README.md) or run the quick start below.
 
-4. **build the client:**
-
-   ```sh
-   cd code/client
-   npm install
-   npm run build
-   ```
-
-## Running the Application
-
-Run the main module to start the server:
 
 ```sh
-python -m code.server -p <port>
+# start the server
+cd code/server
+python -m ada.main  # default: http://localhost:5000
+
+# in a new terminal, start the client
+cd ../client
+npm install
+npm start                       # default: http://localhost:3000
 ```
 
-This will start a local server on `http://localhost:5000`.
-
-Run the client:
-
-```sh
-cd code/client
-npm start
-```
-
-This will start a local server on `http://localhost:3000`. You can access the application by navigating to this URL in your web browser.
+Open <http://localhost:3000> in your browser to use the application.
 
 ## Citation
 
 If you use the resources presented in this repository, please cite:
 
-```
-@misc{Kostric:2025:arXiv,
-  title = {Should We Tailor the Talk? Understanding the Impact of Conversational Styles on Preference Elicitation in Conversational Recommender Systems},
-  author = {Kostric, Ivica and Balog, Krisztian and Gadiraju, Ujwal},
-  year = {2025},
-  eprint = {2504.13095},
-  archiveprefix = {arXiv}
+```sh
+@misc{kostric:2025:arxiv,
+      title={Should We Tailor the Talk? Understanding the Impact of Conversational Styles on Preference Elicitation in Conversational Recommender Systems}, 
+      author={Ivica Kostric and Krisztian Balog and Ujwal Gadiraju},
+      year={2025},
+      eprint={2504.13095},
+      archivePrefix={arXiv},
+      primaryClass={cs.HC},
+      url={https://arxiv.org/abs/2504.13095}, 
 }
 ```
 
